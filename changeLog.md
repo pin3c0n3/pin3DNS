@@ -1,3 +1,6 @@
+Version 0.6.9
+Added checks for admin, drop, download, files, media, video, videos
+
 Version 0.6.5
 Added checks for 'qa', 'dev', 'test', 'tst', 'mobile', and 'm'
 
