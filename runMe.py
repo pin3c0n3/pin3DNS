@@ -1,9 +1,9 @@
 import os
 clear = lambda: os.system('clear')
 clear()
-print ('\033[1;47m  Version 0.6.9  \033[1;m', '\n', '\033[1;46m  Created by Philip Kohn | @pin3c0n3  \033[1;m', '\n')
+print ('\033[1;47m  Version 0.7.0 \033[1;m', '\n', '\033[1;46m  Created by Philip Kohn | @pin3c0n3  \033[1;m', '\n')
 domain = input("Enter domain: ")
-sub = ['admin', 'aut1odiscover', 'dev', 'download', 'drop', 'email', 'files', 'ftp', 'imap', 'm', 'mail', 'media', 'mobile', 'pop', 'pop3', 'qa', 'remote', 'secure', 'sftp', 'sip', 'smtp', 'test', 'tst', 'video', 'videos', 'vpn', 'www', 'wwwqa']
+sub = ['admin', 'aut1odiscover', 'dev', 'download', 'drop', 'email', 'files', 'ftp', 'imap', 'm', 'mail', 'media', 'mobile', 'ns1', 'ns2', 'ns3', 'ns4', 'pop', 'pop3', 'qa', 'remote', 'secure', 'sftp', 'sip', 'smtp', 'test', 'tst', 'video', 'videos', 'vpn', 'www', 'wwwqa']
 if not os.path.exists("./targets"):
     os.makedirs("./targets")
 if not os.path.exists("./results"):
