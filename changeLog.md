@@ -1,3 +1,6 @@
+Version 0.7.5
+Added checks for owa, proxy, router, www2, mx, firewall, syslog, siem
+
 Version 0.7.0
 Added checks for ns1, ns2, ns3, ns4
 
