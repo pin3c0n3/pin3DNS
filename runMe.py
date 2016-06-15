@@ -1,7 +1,7 @@
 import os
 clear = lambda: os.system('clear')
 clear()
-print ('\033[1;47m  Version 0.7.5 \033[1;m', '\n', '\033[1;46m  Created by Philip Kohn | @pin3c0n3  \033[1;m', '\n')
+print ('\033[1;47m  Version 0.7.6 \033[1;m', '\n', '\033[1;46m  Created by Philip Kohn | https://www.philipkohn.com | @pin3c0n3  \033[1;m', '\n')
 domain = input("Enter domain: ")
 sub = ['admin', 'aut1odiscover', 'dev', 'download', 'drop', 'email', 'files', 'firewall', 'ftp', 'imap', 'm', 'mail', 'media', 'mobile', 'mx', 'ns1', 'ns2', 'ns3', 'ns4', 'owa', 'pop', 'pop3', 'proxy', 'qa', 'remote', 'router', 'secure', 'sftp', 'siem', 'sip', 'smtp', 'syslog', 'test', 'tst', 'video', 'videos', 'vpn', 'webmail', 'www', 'www2', 'wwwqa']
 if not os.path.exists("./targets"):
